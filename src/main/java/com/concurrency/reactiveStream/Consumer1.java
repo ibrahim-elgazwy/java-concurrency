@@ -1,8 +1,6 @@
-package com.packtpub.java9.concurrency.cookbook.chapter06.recipe09.consumers;
+package com.concurrency.reactiveStream;
 
 import java.util.concurrent.Flow;
-
-import com.packtpub.java9.concurrency.cookbook.chapter06.recipe09.items.Item;
 
 public class Consumer1 implements Flow.Subscriber<Item> {
 
